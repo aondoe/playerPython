@@ -3,7 +3,7 @@ import ast; #Module to convert string to dictionary.
 class Player:
     playerData=[];
     def __init__(self, playerName,position,teamName, nature):   #4 parameters to initialize the Player object.
-        self.penalties=0;
+        self.penalties=0;   #penalties
         self.salary=100;    #The salary of the player not yet used yet.
         self.teamName=teamName;
         self.playerName=playerName;     #Name of the player
