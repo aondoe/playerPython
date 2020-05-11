@@ -9,7 +9,6 @@ class Player:
         self.playerName=playerName;     #Name of the player
         self.position=str(position); #   Position of the player
         self.nature=nature;     #   Play Offense or Defense
-        rush_attack=[];
         
     def setPenalty(self,penalty):   #set Penalty counts for one player.
         self.penalties=penalty;
