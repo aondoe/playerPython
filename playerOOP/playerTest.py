@@ -4,7 +4,7 @@ class Player:
     playerData=[];
     def __init__(self, playerName,position,teamName, nature):   #4 parameters to initialize the Player object.
         self.penalties=0;
-        self.salary=100;
+        self.salary=100;    #The salary of the player not yet used yet.
         self.teamName=teamName;
         self.playerName=playerName;     #Name of the player
         self.position=str(position); #   Position of the player
